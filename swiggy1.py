@@ -115,5 +115,5 @@ ob1.beforeorder()
 ob2 = user_dis()
 
 ob2.delivery()
-ob2.addvalid
+ob2.addvalid()
 ob2.display()
