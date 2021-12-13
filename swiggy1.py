@@ -4,25 +4,25 @@ class user_input:
 
     def h_dis(self,area):
         if self.area == "aavadi":
-            self.hot_rate = [{"hotel":"hotel1", "rate":"5-star"},
-                        {"hotel":"hotel2", "rate":"4.5-star"},
-                        {"hotel":"hotel3", "rate":"4-star"},
-                        {"hotel":"hotel4", "rate":"4.5-star"}]
+            self.hot_rate = [{"hotel":"hotela1", "rate":"5-star"},
+                        {"hotel":"hotela2", "rate":"4.5-star"},
+                        {"hotel":"hotela3", "rate":"4-star"},
+                        {"hotel":"hotela4", "rate":"4.5-star"}]
         elif self.area == "tharamani":
-            self.hot_rate = [{"hotel":"hotel1", "rate":"5-star"},
-                        {"hotel":"hotel2", "rate":"4.5-star"},
-                        {"hotel":"hotel3", "rate":"4-star"},
-                        {"hotel":"hotel4", "rate":"4.5-star"}]
+            self.hot_rate = [{"hotel":"hotelb1", "rate":"5-star"},
+                        {"hotel":"hotelb2", "rate":"4.5-star"},
+                        {"hotel":"hotelb3", "rate":"4-star"},
+                        {"hotel":"hotelb4", "rate":"4.5-star"}]
         elif self.area == "thiruvanmaiyur":
-            self.hot_rate = [{"hotel":"hotel1", "rate":"5-star"},
-                        {"hotel":"hotel2", "rate":"4.5-star"},
-                        {"hotel":"hotel3", "rate":"4-star"},
-                        {"hotel":"hotel4", "rate":"4.5-star"}]
+            self.hot_rate = [{"hotel":"hotelc1", "rate":"5-star"},
+                        {"hotel":"hotelc2", "rate":"4.5-star"},
+                        {"hotel":"hotelc3", "rate":"4-star"},
+                        {"hotel":"hotelc4", "rate":"4.5-star"}]
         elif self.area == "guindy":
-            self.hot_rate = [{"hotel":"hotel1", "rate":"5-star"},
-                        {"hotel":"hotel2", "rate":"4.5-star"},
-                        {"hotel":"hotel3", "rate":"4-star"},
-                        {"hotel":"hotel4", "rate":"4.5-star"}]
+            self.hot_rate = [{"hotel":"hoteld1", "rate":"5-star"},
+                        {"hotel":"hoteld2", "rate":"4.5-star"},
+                        {"hotel":"hoteld3", "rate":"4-star"},
+                        {"hotel":"hoteld4", "rate":"4.5-star"}]
         else:
             print("area out of survey!")
     def disp(self):        
