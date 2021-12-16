@@ -55,12 +55,10 @@ class dish(hot_sel):
         self.user_dis= input("Enter dish: ")
 
     def dish_val(self):
-        for i in self.f:
-            if (i != self.user_dis):
-                raise ValueError ("dish not available")
-            else:
-                print("Packing....")
-                break
+        if self.user_dis in self.f:
+            print("Packing....")
+        else:
+            raise ValueError ("dish not available")
             
     def disp(self):
         print("\n Available dish")
